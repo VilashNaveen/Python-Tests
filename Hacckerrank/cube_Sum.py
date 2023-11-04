@@ -18,9 +18,3 @@ def cubeSum(n, operations):
             arr.append(sum)
 
     return arr
-
-
-
-
-if __name__ == '__main__':
-

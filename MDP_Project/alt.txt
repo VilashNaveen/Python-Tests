@@ -1,0 +1,38 @@
+def has_north(matrix, row, col):
+    return row > 0
+
+
+def has_south(matrix, row, col):
+    return row < len(matrix) - 1
+
+
+def has_east(matrix, row, col):
+    return col < len(matrix[0]) - 1
+
+
+def has_west(matrix, row, col):
+    return col > 0
+
+
+def utility_Calculator(n, grid, gridHeight, gridLength):
+    grid_utility = grid
+
+    for iteration in range(n):
+        for i in range(gridHeight):
+            for j in range(gridLength):
+                print("g")
+
+
+if __name__ == '__main__':
+
+    grid = [[-0.1, -0.1, -0.05],
+            [-0.1, -0.1, 1]]
+
+    if grid[2][3]:
+        print("k")
+    else:
+        print("no")
+
+    print("okay")
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
